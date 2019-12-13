@@ -40,6 +40,11 @@ class Controller {
         $custom = "ahahaha"; //mysql_
         include 'view/telaLogoutView.php';
     }
+
+     private function showViewUmClaudio(){
+	include 'view/c.php';
+}
+
     
     
 }
